@@ -1,0 +1,23 @@
+
+/*Portfolio*/
+.portfolio-image {
+    background-size: cover;
+    background-position: center;
+    padding-top: calc(1/4* 100%);
+}
+
+#skeletangle {
+    background-image: url(./images/SkeleTangle.png); 
+}
+
+#stomachsarrow{
+    background-image: url(./images/AStomachFullOfSorrow.png);
+}
+
+#nightandday{
+    background-image: url(./images/NightAndDay.gif);
+}
+
+#comrademachine{
+    background-image: url(./images/TheComradeMachine.png);
+}
