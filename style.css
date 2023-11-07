@@ -1,7 +1,12 @@
-/*Whole Page*/
+/*Big Picture*/
 body {
     background-color: #1b152b;
     color: white;
+}
+
+.alternate-color-bg{
+    width: 100%;
+    background-color: #251d3b;
 }
 
 /*Navbar*/
@@ -24,6 +29,10 @@ body {
         border-right: 2px solid black;
     }
 
+    #nav-options{
+        position: fixed;
+    }
+
     .nav-btn{
         margin-bottom: 20px;
         margin-right: 0;
@@ -38,7 +47,16 @@ body {
     background-image: url(./images/SocraticFlag.png);
 }
 
-/*Portfolio*/
+/*Coding*/
+#apple-clone{
+    background-image: url(./images/apple-clone-thumbnail.png);
+}
+
+#newsweek-clone{
+    background-image: url(./images/newsweek-thumbnail.png);
+}
+
+/*Art Portfolio*/
 .portfolio-image {
     background-size: cover;
     background-position: center;
