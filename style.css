@@ -1,3 +1,42 @@
+/*Whole Page*/
+body {
+    background-color: #1b152b;
+    color: white;
+}
+
+/*Navbar*/
+#nav-div {
+    background-color: #392c5c;
+    border-bottom: 2px solid black;
+}
+
+.nav-btn {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px black;
+    background-color: white;
+    border-radius: 2px;
+}
+
+/*Large and above styling*/
+@media (min-width: 992px){
+    #nav-div{
+        border-right: 2px solid black;
+    }
+
+    .nav-btn{
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+
+/*Landing*/
+#landing {
+    background-size: cover;
+    background-position: center;
+    padding-top: calc(1/1.75 * 100%);
+    background-image: url(./images/SocraticFlag.png);
+}
 
 /*Portfolio*/
 .portfolio-image {
