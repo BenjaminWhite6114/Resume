@@ -9,7 +9,24 @@ body {
     background-color: #251d3b;
 }
 
+scrollbar-hidden {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/*Chrome, Safari and Opera*/
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
 /*Navbar*/
+#nav-card {
+    background-image: url(./images/My_face-cropped.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100%;
+}
+
 #nav-div {
     background-color: #392c5c;
     border-bottom: 2px solid black;
@@ -19,7 +36,8 @@ body {
     padding: 5px;
     margin-right: 10px;
     border: 1px black;
-    background-color: white;
+    background-color: #a654b3;
+    color: white;
     border-radius: 2px;
 }
 
@@ -56,11 +74,22 @@ body {
     background-image: url(./images/newsweek-thumbnail.png);
 }
 
+#bnbnews-clone{
+    background-image: url(./images/bnbnews-clone-thumbnail.PNG);
+}
+
+.site-thumbnail {
+    background-size: cover;
+    background-position: center;
+    padding-top: calc(1/1.5 * 100%);
+}
+
 /*Art Portfolio*/
 .portfolio-image {
     background-size: cover;
     background-position: center;
     padding-top: calc(1/4* 100%);
+    margin-right: 2px;
 }
 
 #skeletangle {
