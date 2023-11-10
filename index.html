@@ -15,51 +15,22 @@
     <div class="container-fluid">
         <div class="row">
             <!--Navbar-->
-            <div id="nav-div" class="col-12 col-lg-1">
+            <div id="nav-div" class="col-12 col-lg-2">
                 <nav class="navbar navbar-expand-lg navbar-light d-flex flex-row flex-lg-column">
-                    <div id="nav-options" class="d-flex flex-row flex-lg-column">
+                    <div id="nav-options" class="d-flex flex-row flex-lg-column bg-light">
+                        <div id="nav-card" class="d-none d-lg-flex">
+                            <!--My face-->
+                        </div>
                         <a class="navbar-brand d-none d-sm-flex" href="#">Ben White</a>
                         <a class="nav-btn" href="#coding-header">Coding</a>
                         <a class="nav-btn" href="#philosophy-header">Philosophy</a>
                         <a class="nav-btn" href="#art-header">Art</a>
                         <a class="nav-btn" href="#other-skills-header">Other Skills</a>
                     </div>
-                    <!--<a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>-->
                 </nav>
             </div>
             <!--Content-->
-            <div class="col-12 col-lg-11">
+            <div class="col-12 col-lg-10">
                 <!--Hero-->
                 <div class="row">
                     <div id="landing" class="col-12">
@@ -81,19 +52,32 @@
                     <div class="row text-box">
                         <div class="col-12">
                             <h3>Projects</h3>
-                            <p>As part of the Altacedemy full stack program, I made clones of several well known webpages</p>
+                            <p>In addition to building this site from scratch, as part of the Altacedemy full stack program I made clones of several well known webpages</p>
                             <!--Links and thumbnails of cloned pages here-->
-                            <div class="row flex-nowrap overflow-scroll">
-                                <a href="https://resilient-sfogliatella-30b2f1.netlify.app/">
-                                    <div id="apple-clone" class="col-5 portfolio-image">
-                                        <!--Apple Clone Thumbnail-->
-                                    </div>
-                                </a>
-                                <a href="https://rainbow-centaur-5fa134.netlify.app/">
-                                    <div id="newsweek-clone" class="col-5 portfolio-image">
-                                        <!--Newsweek Clone Thumbnail-->
-                                    </div>
-                                </a>
+                            <div class="row flex-nowrap overflow-scroll scrollbar-hidden">
+                                
+                                <div class="col-5">
+                                    <a href="https://resilient-sfogliatella-30b2f1.netlify.app/" class="clone-link">
+                                        <div id="apple-clone" class="site-thumbnail">
+                                            <!--Apple Clone Thumbnail-->
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                                <div class="col-5">
+                                    <a href="https://rainbow-centaur-5fa134.netlify.app/" class="clone-link">
+                                        <div  id="newsweek-clone" class="site-thumbnail">
+                                           <!--Newsweek Clone Thumbnail-->
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-5">
+                                    <a href="https://bright-nougat-50851e.netlify.app/" class="clone-link">
+                                        <div id="bnbnews-clone" class="site-thumbnail">
+                                            <!--Air BNB clone thumbnail-->
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -121,8 +105,6 @@
                         <h3>Trasferable skills</h3>
                         <p>Many of my most valuable skills come from studying and discussing philosophy. In socratic society, I learned a lot not just about leading a group, but also about communicating about topics which by there very nature are difficult to talk about. To have a productive conversation about such complex and intangible things requires one to be able to quickly understand wolrdviews vastly different from your own and to figure out how to bridge gaps in understanding on such basic levels as what it even means for something to be real.
                         Studying philosophy in general require similar mental flexibility and swiftness in learning.</p>
-                        <!--Maybe cut this line \/-->
-                        <p>In addition to the skills I've learned, the content of my studies may be more relevant that most would realize. Not only does philosophy underpin all of academia, in almost every field it is its source. There was a time when being a philosopher qualified one to be a professor of any subject, as it was seen as the root of all other studies, hence a Doctorate is abreviated PHD.</p>
                     </div>
                 </div>
                 </div>
@@ -141,18 +123,18 @@
                     </div>
                     <div class="row">
                         <h4>Digital</h4>
-                        <div class="row flex-nowrap overflow-scroll">
+                        <div class="row flex-nowrap overflow-scroll scrollbar-hidden">
                             <div id="skeletangle" class="col-4 portfolio-image">
                                 <!--Skeletangle-->
                             </div>
                             <div id="stomachsarrow" class="col-4 portfolio-image">
                                 <!--Stomach full of sarrow-->
                             </div>
-                            <div id="nightandday" class="col-4 portfolio-image">
-                                <!--Night and Day gif-->
-                            </div>
                             <div id="comrademachine" class="col-4 portfolio-image">
                                 <!--comrade machine-->
+                            </div>
+                            <div id="nightandday" class="col-4 portfolio-image">
+                                <!--Night and Day gif-->
                             </div>
                         </div>
                     </div>
