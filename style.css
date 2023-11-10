@@ -1,4 +1,7 @@
 /*Big Picture*/
+.container-fluid{
+    padding: 0;
+}
 body {
     background-color: #1b152b;
     color: white;
@@ -12,6 +15,12 @@ body {
 scrollbar-hidden {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+    max-width: 100%;
+}
+
+/*Chrome, Safari and Opera*/
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
 }
 
 a{
@@ -21,9 +30,15 @@ a{
 a:hover{
     color: lightgray;
 }
-/*Chrome, Safari and Opera*/
-.scrollbar-hidden::-webkit-scrollbar {
-    display: none;
+
+.gutter{
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#main-content-container {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /*Navbar*/
@@ -73,7 +88,7 @@ a:hover{
 
     #nav-options{
         position: fixed;
-        width: 163px;
+        width: 160px;
         justify-content: flex-start;
     }
 
@@ -85,18 +100,15 @@ a:hover{
 }
 
 /*extra large and above*/
-@media (min-width: 1200px){
+@media (min-width: 1199px){
     #nav-options{
         width: 200px;
     }
 }
 
 /*Landing*/
-#landing {
-    background-size: cover;
-    background-position: center;
-    padding-top: calc(1/1.75 * 100%);
-    background-image: url(./images/SocraticFlag.png);
+#landing-container{
+    padding: 0;
 }
 
 /*Coding*/
