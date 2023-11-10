@@ -14,6 +14,13 @@ scrollbar-hidden {
     scrollbar-width: none; /* Firefox */
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: lightgray;
+}
 /*Chrome, Safari and Opera*/
 .scrollbar-hidden::-webkit-scrollbar {
     display: none;
@@ -41,6 +48,23 @@ scrollbar-hidden {
     border-radius: 2px;
 }
 
+#nav-options{
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#nav-myname{
+    margin-right: auto;
+    color: white;
+}
+
+/*Small  and smaller Stylings*/
+@media (max-width: 767px){
+    #nav-options{
+        justify-content: flex-start;
+    }
+}
+
 /*Large and above styling*/
 @media (min-width: 992px){
     #nav-div{
@@ -49,11 +73,21 @@ scrollbar-hidden {
 
     #nav-options{
         position: fixed;
+        width: 163px;
+        justify-content: flex-start;
     }
 
     .nav-btn{
         margin-bottom: 20px;
-        margin-right: 0;
+        width: 100%;
+        align-self: flex-start;
+    }
+}
+
+/*extra large and above*/
+@media (min-width: 1200px){
+    #nav-options{
+        width: 200px;
     }
 }
 
