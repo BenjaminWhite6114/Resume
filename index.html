@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row gx-0 w-100">
             <!--Navbar-->
             <div id="nav-div" class="col-12 col-lg-2">
                 <nav class="navbar navbar-expand-lg navbar-light d-flex flex-row flex-lg-column h-100">
@@ -30,60 +30,62 @@
                 </nav>
             </div>
             <!--Content-->
-            <div class="col-12 col-lg-10">
+            <div id="main-content-container" class="col-12 col-lg-10">
                 <!--Hero-->
-                <div class="row">
-                    <div id="landing" class="col-12">
-                        <!--Main landing-->
+                <div class="row gx-0">
+                    <div class="col-12">
+                        <img id="landing" class="w-100" src="./images/SocraticFlag.png" />
                     </div>
                 </div>
                 <!--Coding-->
-                <div  class="alternate-color-bg pb-5">
-                    <h1 id="coding">Coding</h1>
-                    <!--Background-->
-                    <div class="row text-box">
-                        <div class="col-12">
-                            <h3>Background</h3>
-                            <p>I was first introduced to programming in middleschool when my friends would program their own game onto their casio calculators and I wanted to join in on the fun. In highscool I was introduced to java by my Advanced computer math class, and went on to take AP computer science. I still loved making games, and spent a lot of my free time in highschool watching videos about game design, making games in the ledwerks and unity engines, and making games with my friends.</p>
-                            <p>I went into college intending to study game design, and so took several classes geared toward that subject, including how to code for games, make music for games, and about using game engines. Though I'd switch to studying philosophy, I later decided to do a coding bootcamp with Altcademy on full stack webdevelopment.</p>
+                <div  id="coding-container" class="alternate-color-bg pb-5">
+                    <div class="gutter">
+                        <h1 id="coding">Coding</h1>
+                        <!--Background-->
+                        <div class="row text-box">
+                            <div class="col-12">
+                                <h3>Background</h3>
+                                <p>I was first introduced to programming in middleschool when my friends would program their own game onto their casio calculators and I wanted to join in on the fun. In highscool I was introduced to java by my Advanced computer math class, and went on to take AP computer science. I still loved making games, and spent a lot of my free time in highschool watching videos about game design, making games in the ledwerks and unity engines, and making games with my friends.</p>
+                                <p>I went into college intending to study game design, and so took several classes geared toward that subject, including how to code for games, make music for games, and about using game engines. Though I'd switch to studying philosophy, I later decided to do a coding bootcamp with Altcademy on full stack webdevelopment.</p>
+                            </div>
                         </div>
-                    </div>
-                    <!--Projects-->
-                    <div class="row text-box">
-                        <div class="col-12">
-                            <h3>Projects</h3>
-                            <p>In addition to building this site from scratch, as part of the Altacedemy full stack program I made clones of several well known webpages</p>
-                            <!--Links and thumbnails of cloned pages here-->
-                            <div class="row flex-nowrap overflow-scroll scrollbar-hidden">
-                                
-                                <div class="col-5">
-                                    <a href="https://resilient-sfogliatella-30b2f1.netlify.app/" class="clone-link">
-                                        <div id="apple-clone" class="site-thumbnail">
-                                            <!--Apple Clone Thumbnail-->
-                                        </div>
-                                    </a>
-                                </div>
-                                
-                                <div class="col-5">
-                                    <a href="https://rainbow-centaur-5fa134.netlify.app/" class="clone-link">
-                                        <div  id="newsweek-clone" class="site-thumbnail">
-                                           <!--Newsweek Clone Thumbnail-->
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-5">
-                                    <a href="https://bright-nougat-50851e.netlify.app/" class="clone-link">
-                                        <div id="bnbnews-clone" class="site-thumbnail">
-                                            <!--Air BNB clone thumbnail-->
-                                        </div>
-                                    </a>
+                        <!--Projects-->
+                        <div class="row text-box">
+                            <div class="col-12">
+                                <h3>Projects</h3>
+                                <p>In addition to building this site from scratch, as part of the Altacedemy full stack program I made clones of several well known webpages</p>
+                                <!--Links and thumbnails of cloned pages here-->
+                                <div class="row flex-nowrap overflow-scroll scrollbar-hidden">
+
+                                    <div class="col-5">
+                                        <a href="https://resilient-sfogliatella-30b2f1.netlify.app/" class="clone-link">
+                                            <div id="apple-clone" class="site-thumbnail">
+                                                <!--Apple Clone Thumbnail-->
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-5">
+                                        <a href="https://rainbow-centaur-5fa134.netlify.app/" class="clone-link">
+                                            <div id="newsweek-clone" class="site-thumbnail">
+                                                <!--Newsweek Clone Thumbnail-->
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-5">
+                                        <a href="https://bright-nougat-50851e.netlify.app/" class="clone-link">
+                                            <div id="bnbnews-clone" class="site-thumbnail">
+                                                <!--Air BNB clone thumbnail-->
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--Philosophy-->
-                <div class="pt-5 pb-5">
+                <div class="pt-5 pb-5 gutter">
                 <h1 id="philosophy-header">Philosophy</h1>
                 <!--background-->
                 <div class="row">
@@ -110,37 +112,39 @@
                 </div>
                 <!--Art-->
                 <div class="alternate-color-bg pt-5 pb-5">
-                    <h1 id="art-header">Art</h1>
-                    <!--Description-->
-                    <div class="row">
-                        <p>In addition to coding and philosophy I also practice art, both digital and traditional. My work mostly focuses on aethetic interplay of color and geometry, with any representation being secondary to the overal aesthetic of the work.</p>
-                    </div>
-                    <!--Portfolio-->
-                    <h3>Portfolio</h3>
-                    <div class="row">
-                        <h4>Traditional</h4>
-                        <!--Thumbnails-->
-                    </div>
-                    <div class="row">
-                        <h4>Digital</h4>
-                        <div class="row flex-nowrap overflow-scroll scrollbar-hidden">
-                            <div id="skeletangle" class="col-4 portfolio-image">
-                                <!--Skeletangle-->
-                            </div>
-                            <div id="stomachsarrow" class="col-4 portfolio-image">
-                                <!--Stomach full of sarrow-->
-                            </div>
-                            <div id="comrademachine" class="col-4 portfolio-image">
-                                <!--comrade machine-->
-                            </div>
-                            <div id="nightandday" class="col-4 portfolio-image">
-                                <!--Night and Day gif-->
+                    <div class="gutter">
+                        <h1 id="art-header">Art</h1>
+                        <!--Description-->
+                        <div class="row">
+                            <p>In addition to coding and philosophy I also practice art, both digital and traditional. My work mostly focuses on aethetic interplay of color and geometry, with any representation being secondary to the overal aesthetic of the work.</p>
+                        </div>
+                        <!--Portfolio-->
+                        <h3>Portfolio</h3>
+                        <div class="row">
+                            <h4>Traditional</h4>
+                            <!--Thumbnails-->
+                        </div>
+                        <div class="row">
+                            <h4>Digital</h4>
+                            <div class="row flex-nowrap overflow-scroll scrollbar-hidden">
+                                <div id="skeletangle" class="col-4 portfolio-image">
+                                    <!--Skeletangle-->
+                                </div>
+                                <div id="stomachsarrow" class="col-4 portfolio-image">
+                                    <!--Stomach full of sarrow-->
+                                </div>
+                                <div id="comrademachine" class="col-4 portfolio-image">
+                                    <!--comrade machine-->
+                                </div>
+                                <div id="nightandday" class="col-4 portfolio-image">
+                                    <!--Night and Day gif-->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--Misc-->
-                <div>
+                <div class="gutter">
                 <h1 id="other-skills-header">Other Skills and Interests</h1>
                 <div class="row">
                     <h3>Personal Studies</h3>
