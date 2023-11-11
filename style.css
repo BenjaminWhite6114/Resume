@@ -174,8 +174,9 @@ a:hover{
 
 /*Other Skills and Interest*/
 #book-list{
-    margin-left: 20px;
+    list-style-type: none;
 }
+
 .book-title{
     background: none;
     border: none;
