@@ -155,6 +155,40 @@ a:hover{
     margin-right: 2px;
 }
 
+.trad-portfolio-image {
+    background-size: cover;
+    background-position: center;
+    padding-top: calc(1/2* 100%);
+    margin-right: 2px;
+}
+
+#lift{
+    background-image: url(./images/trad-lift.jpg);
+}
+
+#hand1{
+    background-image: url(./images/trad-hand-1.jpg);
+}
+
+#gears{
+    background-image: url(./images/trad-gears.jpg);
+}
+
+#cross{
+    background-image: url(./images/trad-cross.jpg);
+}
+
+#sun{
+    background-image: url(./images/trad-sun.jpg);
+}
+
+#hand2{
+    background-image:url(./images/trad-hand-2.jpg);
+}
+
+#squash{
+    background-image:url(./images/trad-squash.jpg);
+}
 #skeletangle {
     background-image: url(./images/SkeleTangle.png); 
 }
