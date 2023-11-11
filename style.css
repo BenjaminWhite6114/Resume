@@ -160,6 +160,7 @@ a:hover{
 }
 
 #stomachsarrow{
+    background-position: 0 7%;
     background-image: url(./images/AStomachFullOfSorrow.png);
 }
 
@@ -183,4 +184,11 @@ a:hover{
 
 .book-description{
     margin-left: 15px;
+}
+
+/*Footer*/
+
+#footer{
+    color: gray;
+    font-size: small;
 }
