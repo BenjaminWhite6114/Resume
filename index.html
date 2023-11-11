@@ -21,7 +21,11 @@
                         <div id="nav-card" class="d-none d-lg-flex mb-3">
                             <!--My face-->
                         </div>
-                        <a  id="nav-myname" class="navbar-brand d-none d-sm-flex d-lg-none" href="#">Ben White</a>
+                        <a id="nav-myname" class="navbar-brand d-none d-sm-flex d-lg-none" href="#">Ben White</a>
+                        <div id="social-links">
+                            <a href="https://github.com/BenjaminWhite6114"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/benjamin-white-26415724b/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
                         <a class="nav-btn" href="#coding-header"><i class="fa-solid fa-code"></i><span class="d-none d-md-inline"> Coding</span></a>
                         <a class="nav-btn" href="#philosophy-header"><i class="fa-solid fa-book-open"></i><span class="d-none d-md-inline"> Philosophy</span></a>
                         <a class="nav-btn" href="#art-header"><i class="fa-solid fa-paintbrush"></i><span class="d-none d-md-inline"> Art</span></a>
@@ -144,11 +148,82 @@
                     </div>
                 </div>
                 <!--Misc-->
-                <div class="gutter">
-                <h1 id="other-skills-header">Other Skills and Interests</h1>
-                <div class="row">
-                    <h3>Personal Studies</h3>
-                </div>
+                <div class="gutter pt-5 pb-3">
+                    <h1 id="other-skills-header">Other Skills and Interests</h1>
+                    <div class="row">
+                        <h3>How Do These Things Matter?</h3>
+                        <p>I decided to include these not because any of the skills themselves are particularly relevant, but more to show that I love to learn, and that I pick up new skills pretty quickly.</p>
+                        <h3>Tae Kwon Do</h3>
+                        <p>I practiced Tae Kwon Do for 4 years before earning my black belt. As a fighting style it's not incredibly practical, but it certainly helped keep me in shape as well as improving my general dexterity and coordination, and I would still say its better than no fighting practice.</p>
+                        <h3>Lockpicking</h3>
+                        <p>I promise its a perfectly legal hobby called <a href="https://en.wikipedia.org/wiki/Locksport">locksport</a>. Honestly the main take away I had was the startling realization of how much security just depends on people not actualy trying very hard to get through it. After just under a month of practice I was able to successfully get my friend into their house when they locked themself out.</p>
+                        <h3>Guitar</h3>
+                        <p>Music was never my forte, and since I consider myself at least passible in most arts it always nagged at me, so when I was gifted an old guitar I decided to change that. I was lucky enough to have a couple friends who are actually really skilled with the guitar to help me learn the basics. I expected having to do different things with my hands at the same time would be the hardest part, but honestly the hand flexibility was the biggest hurdle.</p>
+                        <h3>Reading</h3>
+                        <p>I don't want to make this section too long, so I'll leave off with my personal studies. A while back I decided I wanted to not just rely on schools and programs, but to continue my studies on my own so that even after graduation I'd continue to learn and improve. To show that, I've included a list of some of my recent reads (you can click on them for a description and my thoughts on each).</p>
+                        <ul id="book-list">
+                            <li>
+                                <button class="book-title" type="button" data-bs-toggle="collapse" data-bs-target="#sysiphus-desc" aria-expanded="false" aria-controls="sysiphus-desc">
+                                    The Myth of Sisyphus, by Albert Camus
+                                </button>
+                                <div class="collapse" id="sysiphus-desc">
+                                    <div class="book-description">
+                                        <p>Camus is one of the most famous existentialists, and this is one of his most famous works. I think it's worth noting that Camus explicitely states at the beginning that he isn't trying to convince you of his base assumptions, so while his basic premise is the easiest point of attack in the work, Camus essentially says he isn't interested in convincing you of those anyway. Even with that weak foundation, he makes many interesting points.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button class="book-title" type="button" data-bs-toggle="collapse" data-bs-target="#stranger-desc" aria-expanded="false" aria-controls="stranger-desc">
+                                    The Stranger, by Albert Camus
+                                </button>
+                                <div class="collapse" id="stranger-desc">
+                                    <div class="book-description">
+                                        <p>This is arguably Camus's most famous work, and may even be one you had to read in school. I read it immediately after The Myth of Sisyphus, which is how I reccomend anyone else interested in the book approach it, as much of its symbolism is only clear if you're familiar with Camus's larger philosophy. I really loved this book. The amoral ambivelent tone of the narration surprisingly doesn't stop there from being intensly emotional moments, and seeing the narrator's total lack of reaction to them truly does make him seem a stranger to humanity. His otherness is palpable, leading to strange feelings about the arguable injustice he goes through later in the book.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button class="book-title" type="button" data-bs-toggle="collapse" data-bs-target="#invent-dec" aria-expanded="false" aria-controls="invent-dec">
+                                    How To Invent Everything, by Ryan North
+                                </button>
+                                <div class="collapse" id="invent-dec">
+                                    <div class="book-description">
+                                        <p>This book is talks about both the history and mechanics of many of humanities most important inventions through the fun and whimsical framework of a stranded time traveler's guide to reinventing civilization. I feel like it actually helped fill in a lot of what felt like obvious gaps in my knowledge of both history and technology like what a fly-wheel is or how crop rotation actually works.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button class="book-title" type="button" data-bs-toggle="collapse" data-bs-target="#expectations-desc" aria-expanded="false" aria-controls="expectations-desc">
+                                    The Age of Diminished Expectations, by Paul Krugman
+                                </button>
+                                <div class="collapse" id="expectations-desc">
+                                    <div class="book-description">
+                                        <p>A bit of an outdated book, this one focuses on dispelling many economic myths of the 1990's by explaining some basic principles of economics as they're relevant to the United States, as well as using that information to provide a possible explaination of a trend in Us economics that does seem to still continue to the modern day. It both helped fill in gaps in my basic knowledge of economics, as well as give explainations of events I was only really vaugley aware of before.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button class="book-title" type="button" data-bs-toggle="collapse" data-bs-target="#contract-desc" aria-expanded="false" aria-controls="contract-desc">
+                                    The Scoial Contract, by Jean-Jacques Rousseau
+                                </button>
+                                <div class="collapse" id="contract-desc">
+                                    <div class="book-description">
+                                        <p>Jean-Jacques Rousseau was one of the lead thinkers of the enlightenment movement that inspired the founding fathers. Political Philosophy has always been a weak point of mine, which is why I wanted to read this book. One interesting revelation is that, though presented as a justification of democracy when taught to me in highschool, The Social Contract does not endorse any form of government, instead explaining how different conditions favor different forms of government.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button class="book-title" type="button" data-bs-toggle="collapse" data-bs-target="#time-desc" aria-expanded="false" aria-controls="time-desc">
+                                    A Brief History of Time, by Stephen Hawking
+                                </button>
+                                <div class="collapse" id="time-desc">
+                                    <div class="book-description">
+                                        <p>Hawking's most famous work explaining key features of both quantum and astrophysics, it certaintly does contain a lot of really interesting information, but I did have my frustrations with the book. I think they're best by the example of when he's explaining what particle spin is.The spin of a particle isn't its rotation, but how far it must be rotated to by symetrical. An arrow is symetrical only after being rotated 360 degrees, while a playing card may be symetrical after being rotated only 180 degrees. He then explains that strangely enough, some particals must be rotate MORE than 360 degrees in order to be symetrical! Would you be interested to know how that works? So would I, he just says that there is math proving it, not what that math is...</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

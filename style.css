@@ -73,6 +73,19 @@ a:hover{
     color: white;
 }
 
+#social-links{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.fa-github{
+    color: white;
+}
+
+.fa-linkedin{
+    color: white;
+}
 /*Small  and smaller Stylings*/
 @media (max-width: 767px){
     #nav-options{
@@ -96,6 +109,10 @@ a:hover{
         margin-bottom: 20px;
         width: 100%;
         align-self: flex-start;
+    }
+
+    #social-links{
+        margin-bottom: 20px;
     }
 }
 
@@ -152,4 +169,18 @@ a:hover{
 
 #comrademachine{
     background-image: url(./images/TheComradeMachine.png);
+}
+
+/*Other Skills and Interest*/
+#book-list{
+    margin-left: 20px;
+}
+.book-title{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.book-description{
+    margin-left: 15px;
 }
